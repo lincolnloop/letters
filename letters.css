@@ -1,0 +1,58 @@
+/* font-family: 'Courgette', cursive; */
+/* font-family: 'Lora', serif; */
+html {
+  font-size: 15px;
+}
+
+body {
+  text-align: center;
+  font-family: 'Lora', serif;
+}
+
+.primary-header {
+  padding: 1rem;
+  border-bottom: 4px solid black;
+}
+
+.title {
+  font-family: 'Courgette', cursive;
+  font-size: 3rem;
+}
+
+.slogan {
+  margin: auto;
+  font-size: 2rem;
+  line-height: 2.6rem;
+  width: 70%;
+}
+
+.primary-main {
+  width: 70%;
+}
+
+.by-link {
+  font-family: 'Courgette', cursive;
+  color: black;
+  text-decoration: none;
+}
+
+.primary-main {
+  width: 100%;
+}
+
+.signup {
+  margin: auto;
+  margin-top: 50px;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  width: 70%;
+}
+
+@media (max-width:600px) {
+  html {
+    font-size: 13px;
+  }
+  .slogan {
+    width: 95%;
+  }
+}

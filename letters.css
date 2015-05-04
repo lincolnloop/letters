@@ -10,13 +10,34 @@ body {
 }
 
 .primary-header {
-  padding: 1rem;
-  border-bottom: 4px solid black;
+  padding: .3rem 1rem;
+}
+
+.header-top {
+  display: flex;
+  display: -webkit-flex;
 }
 
 .title {
+  margin: 1rem;
   font-family: 'Courgette', cursive;
   font-size: 3rem;
+  text-align: left;
+}
+
+.nav-list {
+  display: flex;
+  display: -webkit-flex;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link:hover {
+  color: #53BFC9;
 }
 
 .slogan {
@@ -43,7 +64,7 @@ body {
 .signup {
   margin: auto;
   margin-top: 50px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.7rem;
   width: 70%;
 }
